@@ -10,27 +10,28 @@ node-nicovideo
     var NV = require('node-nicovideo');
     var nv = new NV();
     
-### gethumbinfo
+#### gethumbinfo
     nv.getthumbinfo(id, 'xml', callback);
 
-### thumb
+#### thumb
     nv.thumb(id, callback);
     
-### getflv
+#### getflv
     nv.getflv(id, 'nocosid', 'user_session', callback);
     
-### msg
+#### msg
     nv.msg(id, 100, 'nicosid', 'user_session', 'xml', callback);
     
-### getrelation
+#### getrelation
     nv.getrelation(id, 1, 'p', 'd', 'xml', callback);
     
-### rss
+#### rss
     nv.rss(id, 'mylist', '2.0', callback);
     
-### getheadline
+#### getheadline
     nv.getheadline('xml', callback);
 
-### login
+#### login
 内部でpython cliをコールしてるためpython2.7以上がインストールされている必要があります。
+
     nv.login('your login mail addr', 'your password', callback);
