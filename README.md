@@ -28,7 +28,7 @@ node-nicovideo
 #### rss
     nv.rss(id, 'mylist', '2.0', callback);
     
-### getheadline
+#### getheadline
     nv.getheadline('xml', callback);
 
 #### login
